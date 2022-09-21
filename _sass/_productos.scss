@@ -1,0 +1,173 @@
+#productos {
+  margin: 30px 0 0;
+  position: relative;
+  @media #{$desktop}{
+    margin: 0;
+  }
+  h3 {
+    margin: 0 0 20px 0;
+  }
+  h4 {
+    margin: 0 0 40px 0;
+    @media #{$tablet}{
+      margin: 0 0 60px;
+      width: 50%;
+    }
+  }
+  .productos-wedge {
+    display: none;
+    @media #{$tablet}{
+      display: block;
+      background: $full-black;
+      width: 70%;
+      height: 300px;
+      position: absolute;
+      z-index: -1;
+      left: -20px;
+      transform: skewY(5deg);
+      transform-origin: bottom left;
+    }
+  }
+  .productos-menu {
+    display: none;
+    @media #{$tablet}{
+      display: block;
+      width: 50%;
+      float: left;
+      ul {
+        padding: 100px 20px 0; 
+        li {
+          padding: 0 0 20px 30px;
+          background: url('../img/icon-arrow.svg') no-repeat 0 0;
+          color: $full-white;
+          text-decoration: none;
+          font-weight: 600;
+          cursor: pointer;
+          &:hover,
+          &.active {
+            color: $ocean-green;
+            background: url('../img/icon-arrow-active.svg') no-repeat 0 0;
+          }
+        }
+      }
+    }
+  }
+  .productos-copy {
+    @media #{$tablet}{
+      width: 50%;
+      float: right;
+    }
+    .card {
+      background: white;
+      mix-blend-mode: normal;
+      box-shadow: 0px 0px 22px -6px rgba(0, 0, 0, 0.25);
+      border-radius: 12px;
+      margin-bottom: 40px;
+      @media #{$tablet}{
+        display: none;
+        &.active {
+          display: inline-block;
+        }
+      }
+      .card-header {
+        border-bottom: 1px solid $grey-borders;
+        padding: 14px 10px;
+        display: flex;
+        span {
+          width: 16px;
+          height: 16px;
+          display: inline-block;
+          margin: 0 5px;
+          border-radius: 50%;
+        }
+        span.red {
+          background: $red;
+        }
+        span.yellow {
+          background: $yellow;
+        }
+        span.green {
+          background: $green;
+        }
+      }
+      .card-content {
+        padding: 20px;
+        h3 {
+          color: $primary-text!important;
+        }
+        dl {
+          dt {
+            @include inter-bold($primary-text, 18px);
+          }
+          dt:last-child {
+            margin-bottom: 30px;
+          }
+          dd {
+            @include inter($primary-text, 16px);
+            margin-bottom: 30px;
+          }
+        }
+        p,
+        .tools {
+          @include inter($primary-text, 16px);
+          margin: 0 0 20px;
+          span {
+            box-sizing: border-box;
+            width: auto;
+            padding: 12px 20px;
+            background: #FFFFFF;
+            border: 1px solid $grey-borders;
+            border-radius: 10px;
+            float: left;
+            margin: 0 10px 10px 0;
+            cursor: pointer;
+            &.active {
+              background: #B2EBA9;
+              box-shadow: 0px 0px 21px #88EC64;
+            }
+          }
+        }
+        .tools-description {
+          border-top: 1px dashed $grey-borders;
+          padding: 10px 0;
+          p {
+            padding: 10px 0;
+            display: none;
+            &.active {
+              display: inline;
+            }
+          }
+        }
+        ul {
+          margin-bottom: 20px;
+          li {
+            list-style-type: none;
+            padding-bottom: 15px;
+            @include inter($primary-text, 16px);
+            span {
+              display: inline-block;
+              width: 24px;
+              height: 24px;
+              margin: 0 15px 0 0;
+              &.location {
+                background: url('../img/icon-location.svg') no-repeat 0 0;
+                position: relative;
+                top: 5px;
+              }
+              &.modalidad {
+                background: url('../img/icon-modalidad.svg') no-repeat 0 0;
+                position: relative;
+                top: 5px;
+              }
+              &.branches {
+                background: url('../img/icon-branches.svg') no-repeat 0 0;
+                position: relative;
+                top: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
