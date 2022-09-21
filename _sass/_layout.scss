@@ -71,10 +71,10 @@ h2 {
 }
 
 h3 {
-  @include inter-bold($ocean-green, 20px);
+  @include inter-bold($primary-text, 20px);
   text-align: center;
   @media #{$tablet}{
-    @include inter-bold($ocean-green, 28px);
+    @include inter-bold($primary-text, 28px);
     text-align: left;
   }
 }

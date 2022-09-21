@@ -190,9 +190,9 @@ h2 { font-family: 'Inter', sans-serif; font-size: 20px !important; font-weight: 
 
 @media screen and (min-width: 1024px) { h2 { font-family: 'Inter', sans-serif; font-size: 24px !important; font-weight: 400 !important; color: #333333 !important; line-height: 28px !important; text-align: left; } }
 
-h3 { font-family: 'Inter', sans-serif; font-size: 20px !important; font-weight: 700 !important; color: #459C6E !important; line-height: 24px !important; text-align: center; }
+h3 { font-family: 'Inter', sans-serif; font-size: 20px !important; font-weight: 700 !important; color: #333333 !important; line-height: 24px !important; text-align: center; }
 
-@media screen and (min-width: 768px) { h3 { font-family: 'Inter', sans-serif; font-size: 28px !important; font-weight: 700 !important; color: #459C6E !important; line-height: 32px !important; text-align: left; } }
+@media screen and (min-width: 768px) { h3 { font-family: 'Inter', sans-serif; font-size: 28px !important; font-weight: 700 !important; color: #333333 !important; line-height: 32px !important; text-align: left; } }
 
 h4 { font-family: 'Inter', sans-serif; font-size: 16px !important; font-weight: 400 !important; color: #333333 !important; line-height: 20px !important; text-align: center; }
 
@@ -254,7 +254,7 @@ nav .hamburger.close { background: url("../img/icon-close.svg") no-repeat 0 0; }
 
 #productos .productos-menu { display: none; }
 
-@media screen and (min-width: 768px) { #productos .productos-menu { display: block; width: 50%; float: left; } #productos .productos-menu ul { padding: 100px 20px 0; } #productos .productos-menu ul li { padding: 0 0 20px 30px; background: url("../img/icon-arrow.svg") no-repeat 0 0; color: #fff; text-decoration: none; font-weight: 600; cursor: pointer; } #productos .productos-menu ul li:hover, #productos .productos-menu ul li.active { color: #459C6E; background: url("../img/icon-arrow-active.svg") no-repeat 0 0; } }
+@media screen and (min-width: 768px) { #productos .productos-menu { display: block; width: 50%; float: left; } #productos .productos-menu ul { padding: 100px 20px 0; } #productos .productos-menu ul li { padding: 0 0 20px 30px; background: url("../img/icon-arrow.svg") no-repeat 0 0; color: #fff; text-decoration: none; font-weight: 600; cursor: pointer; } #productos .productos-menu ul li:hover, #productos .productos-menu ul li.active { color: #50d28d; background: url("../img/icon-arrow-active.svg") no-repeat 0 0; } }
 
 @media screen and (min-width: 768px) { #productos .productos-copy { width: 50%; float: right; } }
 
@@ -320,7 +320,7 @@ nav .hamburger.close { background: url("../img/icon-close.svg") no-repeat 0 0; }
 
 @media screen and (min-width: 1024px) { #contacto { padding: 60px 0 0 100px !important; } }
 
-#contacto h3 { margin: 0 0 20px 0; }
+#contacto h3 { margin: 0 0 20px 0; color: #50d28d !important; }
 
 #contacto h4 { margin: 0 0 40px 0; color: #fff !important; }
 
@@ -332,7 +332,7 @@ nav .hamburger.close { background: url("../img/icon-close.svg") no-repeat 0 0; }
 
 #contacto dl dt span { display: inline-block; width: 24px; height: 24px; margin: 0 15px 0 0; }
 
-#contacto dl dt span.location { background: url("../img/icon-location.svg") no-repeat 0 0; position: relative; top: 5px; }
+#contacto dl dt span.location { background: url("../img/icon-location-white.svg") no-repeat 0 0; position: relative; top: 5px; }
 
 #contacto dl dt span.phone { background: url("../img/icon-phone.svg") no-repeat 0 0; position: relative; top: 5px; }
 
