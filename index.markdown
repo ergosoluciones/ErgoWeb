@@ -35,12 +35,12 @@ clients-title: Clientes
 clients-subtitle: Estos son algunos de los clientes que confian en nosotros
 contact-title: Contacto
 contact-subtitle: Atenderemos su consulta a la brevedad
-contact-street: Caller Serrano 1
-contact-floor: Planta 4
-contact-zip-city: 28001 - Madrid
-contact-country: España
+contact-street: CIUDAD DE LA PAZ OFFICE CENTER - Ciudad de la Paz 1965
+contact-floor: Piso 4 - Oficina D
+contact-zip-city: C1428CPE Ciudad Autónoma de Buenos Aires
+contact-country: Argentina
 contact-phone: Telefono
-contact-phone-number: +34 620 62 05 54
+contact-phone-number: +54 911 5165 9951
 contact-email: Email
 contact-email-address: info@ergosoluciones.com
 ---
