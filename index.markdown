@@ -8,10 +8,10 @@ hero-title-first-paragraph: Soluciones IT
 hero-title-second-paragraph: del sector Financiero
 hero-subtitle: Proveemos productos y servicios<br>a la medida de compañías de clase mundial
 products-title: Productos y Servicios
-products-subtitle: Nuestro equipo de profesionales brinda servicios de desarrollo software.<br>Contamos con herramientas de emulación, testing, Core bancario y bots bursátiles.
+products-subtitle: Nuestro equipo de profesionales brinda servicios de desarrollo de software.<br>Contamos con herramientas de emulación, testing, Core bancario y bots bursátiles.
 products-software-factory-argentina: Software Factory Argentina
 products-herramientas-financieras: Herramientas Financieras
-products-software-factory-copy: Nuestro equipo de desarrollo multidisciplinario atiende el ciclo de vida completo:<br/> &#8226; Análisis<br/> &#8226; Desarrollo<br/> &#8226; Documentación<br/> &#8226; Implementaciones<br/> &#8226; Guardias<br/> &#8226; Soporte a inicidentes<br/>
+products-software-factory-copy: Nuestro equipo multidisciplinario atiende el ciclo de vida completo:<br/> &#8226; Análisis<br/> &#8226; Desarrollo<br/> &#8226; Documentación<br/> &#8226; Implementaciones<br/> &#8226; Guardias<br/> &#8226; Soporte a inicidentes<br/>
 products-oficinas: Oficinas en Buenos Aires
 products-modalidad: Modalidad Hibrida
 products-metodologias: Metodologias Agiles
