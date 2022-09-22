@@ -36,10 +36,10 @@ clients-subtitle: Estos son algunos de los clientes que confian en nosotros
 contact-title: Contacto
 contact-subtitle: Atenderemos su consulta a la brevedad
 contact-street: Ciudad de la Paz Office Center
-contact-floor: Ciudad de la Paz 1965, 5 A
-contact-zip-city: C1428CPE Ciudad Autónoma de Buenos Aires
+contact-floor: Ciudad de la Paz 1965, 5 A, C1428CPE
+contact-zip-city: Ciudad Autónoma de Buenos Aires
 contact-country: Argentina
-contact-phone: Telefono
+contact-phone: Teléfono
 contact-phone-number: +54 911 5165 9951
 contact-email: Email
 contact-email-address: info@ergosoluciones.com
