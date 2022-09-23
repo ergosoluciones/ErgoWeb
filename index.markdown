@@ -42,5 +42,5 @@ contact-country: Argentina
 contact-phone: Teléfono
 contact-phone-number: +54 911 5165 9951
 contact-email: Email
-contact-email-address: info@ergosoluciones.com
+contact-email-address: <a href="mailto:info@ergosoluciones.com">info@ergosoluciones.com</a>
 ---
